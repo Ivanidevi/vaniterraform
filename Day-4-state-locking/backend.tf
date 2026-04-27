@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "vanidemotest-statefile"
+    bucket = "vanidemotest"
     key    = "terraform.tfstate"
     region = "us-east-1"
   }
